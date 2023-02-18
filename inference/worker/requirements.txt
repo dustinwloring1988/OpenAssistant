@@ -1,0 +1,7 @@
+loguru
+pydantic
+rel
+requests
+sseclient-py
+tokenizers
+websocket-client
