@@ -32,4 +32,3 @@ use to interface with humans.
 - Data Collection → This is the bulk of the work
 - Data Augmentation → Making more data from little data
 - Privacy and Safety → Protecting sensitive data
-- 
