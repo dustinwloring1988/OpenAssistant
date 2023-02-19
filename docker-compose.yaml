@@ -95,7 +95,7 @@ services:
     environment:
       - POSTGRES_HOST=db
       - REDIS_HOST=redis
-      - DEBUG_USE_SEED_DATA=True
+      - DEBUG_USE_SEED_DATA=False
       - DEBUG_ALLOW_SELF_LABELING=True
       - MAX_WORKERS=1
       - DEBUG_SKIP_TOXICITY_CALCULATION=True
@@ -126,7 +126,7 @@ services:
       - ENABLE_EMAIL_SIGNIN=true
       - ENABLE_EMAIL_SIGNIN_CAPTCHA=false
       - NEXTAUTH_URL=http://localhost:3000
-      - DEBUG_LOGIN=true
+#      - DEBUG_LOGIN=true
     depends_on:
       webdb:
         condition: service_healthy
