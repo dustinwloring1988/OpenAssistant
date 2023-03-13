@@ -56,7 +56,7 @@
     "lande": "^1.0.10",
     "lucide-react": "^0.105.0",
     "next": "13.0.6",
-    "next-auth": "^4.18.6",
+    "next-auth": "^4.20.1",
     "next-i18next": "^13.0.3",
     "nodemailer": "^6.8.0",
     "npm": "^9.2.0",
